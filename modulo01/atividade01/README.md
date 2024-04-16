@@ -10,11 +10,11 @@
 
 <h5 align="left">Para rodar os exercícios, primeiro abra o VS Code, após, crie uma nova instância do terminal:</h5>
 
-<img src="https://ibb.co/9G4YSq9" alt="terminal"/>
+<p align="left"><img src="https://ibb.co/9G4YSq9" alt="terminal"/></p>
 
 <h5>Depois de abrir o terminal, digite o seguinte e aperte enter:</h5>
 
-<img src="https://ibb.co/nbVQHfB" alt="node-terminal"/>
+<p align="left"><img src="https://ibb.co/nbVQHfB" alt="node-terminal"/></p>
 
 <h5>No exemplo acima ele irá rodar o exercício 1. Para rodar os outros exercícios, troque o "1" pelo número do exercício desejado.</h5>
 
