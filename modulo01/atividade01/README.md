@@ -12,6 +12,10 @@
 
 <p align="left"><img src="https://i.ibb.co/PtWC05Z/terminal.png" alt="terminal"/></p>
 
+<h5 align="left">Para a maioria dos exercícios será necessário instalar algumas dependências via node, iremos isntalar o "promp-sync", que serve para o usuário poder passar dados para o programa. Digite o seguinte no terminal e aperte enter:</h5>
+
+<p align="left"><img src="https://i.ibb.co/pr8Jbwy/prompt-sync.png" alt="terminal"/></p>
+
 <h5>Depois de abrir o terminal, digite o seguinte e aperte enter:</h5>
 
 <p align="left"><img src="https://i.ibb.co/vHrL7mh/node.png" alt="node-terminal"/></p>
