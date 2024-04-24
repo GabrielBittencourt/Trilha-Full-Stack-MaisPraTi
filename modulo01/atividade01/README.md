@@ -4,7 +4,7 @@
 
 <p align="left"> <a href="https://nodejs.org/en/download/current" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
 
-<h5 align="left">Com o node instalado, é recomendado utilizar o VS Code para o desenvolvimento do código:</h5>
+<h5 align="left">Com o node instalado, é recomendado utilizar o VS Code para o desenvolvimento e visualização do código:</h5>
 
 <p align="left"> <a href="https://code.visualstudio.com/download" target="_blank" rel="noreferrer"> <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="vscode" width="40" height="40"/> </a> </p>
 
@@ -12,11 +12,13 @@
 
 <p align="left"><img src="https://i.ibb.co/PtWC05Z/terminal.png" alt="terminal"/></p>
 
-<h5 align="left">Para a maioria dos exercícios será necessário instalar algumas dependências via node, iremos instalar o "promp-sync", que serve para o usuário poder passar dados para o programa. Digite o seguinte no terminal e aperte enter:</h5>
+<h5 align="left">Para a maioria dos exercícios será necessário instalar algumas dependências via node. Digite o seguinte no terminal e aperte enter:</h5>
 
-<p align="left"><img src="https://i.ibb.co/pr8Jbwy/prompt-sync.png" alt="terminal"/></p>
+<p align="left"><img src="https://i.ibb.co/CtBJfLG/npm-install.png" alt="npm-install"/></p>
 
-<h5>Depois de abrir o terminal, digite o seguinte e aperte enter:</h5>
+<h5 align="left">Esse comando irá instalar todas as dependências necessárias para a aplicação.</h5>
+
+<h5>Após isso, digite o seguinte e aperte enter:</h5>
 
 <p align="left"><img src="https://i.ibb.co/vHrL7mh/node.png" alt="node-terminal"/></p>
 
