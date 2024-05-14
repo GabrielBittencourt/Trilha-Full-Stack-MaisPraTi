@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 const lado_a = parseInt(prompt('Digite o tamanho do primeiro segmento: '))
-const lado_b = parseInt(prompt('Digite o tamanho do segundo segmento: '))
+const lado_b = parseInt(prompt('Digite o tamanho do second segmento: '))
 const lado_c = parseInt(prompt('Digite o tamanho do terceiro segmento: '))
 
 
