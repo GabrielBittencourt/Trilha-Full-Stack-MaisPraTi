@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 const tipo_carro = parseInt(prompt('Digite o tipo de carro (Popular - 1 | Luxo - 2): '))
 

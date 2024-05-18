@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 let soma = 0
 let menor = 9999999999
 let media
@@ -27,4 +27,4 @@ do {
 
     controle = parseInt(prompt('Deseja continuar? (0)Não | (1)Sim: '))  
 
-} while (controle == 1);
+} while (controle == 1)

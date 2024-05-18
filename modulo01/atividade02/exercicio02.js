@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 const velocidade_carro = parseInt(prompt('Digite a velocidade do carro: '))
 

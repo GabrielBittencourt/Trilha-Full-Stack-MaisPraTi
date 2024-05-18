@@ -1,6 +1,6 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
-let hours_atividade = parseInt(prompt('Digite quantas hours de atividade durante o mês: '))
+let hours_atividade = parseInt(prompt('Digite quantas horas de atividade durante o mês: '))
 
 if(hours_atividade < 10){
     hours_atividade *= 2

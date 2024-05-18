@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 const jogada = parseInt(prompt('Tente descobrir o número entre 1 e 5: '))
 

@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 const distancia = parseInt(prompt('Digite a distância que deseja percorrer: '))
 let valor = 0

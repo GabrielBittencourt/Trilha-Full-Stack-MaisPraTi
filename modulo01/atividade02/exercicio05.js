@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 const jogada = parseInt(prompt('Digite sua jogada (1 - Pedra | 2 - Papel | 3 - Tesoura): '))
 
