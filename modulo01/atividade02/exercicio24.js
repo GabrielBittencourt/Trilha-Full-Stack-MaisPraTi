@@ -9,7 +9,7 @@ let matrice = [
 
 let c = []
 
-for (let i = 0; i < matrice.length; ++i) {
+for(let i = 0; i < matrice.length; ++i) {
     let count = 0
     for(let j = 0; j < matrice[i].length; ++j){
         if(matrice[i][j] < 0){

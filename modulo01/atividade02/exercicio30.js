@@ -5,7 +5,7 @@ let sl = []
 let sc = []
 
 
-for (let i = 0; i < 5; ++i){
+for(let i = 0; i < 5; ++i){
     matrice[i] = []
     for (let j = 0; j < 5; ++j) {
       matrice[i][j] = parseFloat(prompt("Digite o elemento da posição [" + (i+1)+"]"+"["+(j+1) + "] : "))

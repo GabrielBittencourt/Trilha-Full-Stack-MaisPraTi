@@ -14,18 +14,18 @@ function formatTime(hour, minute, second) {
 function readTime() {
   let times = []
 
-  for (let i = 0; i < 5; i++) {
+  for(let i = 0; i < 5; i++) {
     let valid = false
     let hour, minute, second
 
-    while (!valid) {
+    while(!valid) {
       const entry = prompt("Digite o "+ (i + 1) + "º horário (HH:MM:SS): ")
       const parts = entry.split(':')
       hour = parseInt(parts[0])
       minute = parseInt(parts[1])
       second = parseInt(parts[2])
 
-      if (validateTime(hour, minute, second)) {
+      if(validateTime(hour, minute, second)) {
         valid = true
       } else {
         console.log("Horário inválido. Por favor, insira um horário no formato HH:MM:SS.")
@@ -36,7 +36,7 @@ function readTime() {
   }
 
     console.log("Horários lidos:")
-    for (i = 0 ; i < 5 ;  ++i) {
+    for(i = 0 ; i < 5 ;  ++i) {
         console.log("Horário " + i + ": "+ times[i])
     }
 }

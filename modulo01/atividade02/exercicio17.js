@@ -11,7 +11,7 @@ for(let i = 0; i < 9; ++i){
 
 console.log("Menores de idade:")
 
-for (let i = 0; i < 9; ++i) {
+for(let i = 0; i < 9; ++i) {
     if(age[i] < 18){
         console.log(name[i] + " têm " + age[i] + " anos")
     }

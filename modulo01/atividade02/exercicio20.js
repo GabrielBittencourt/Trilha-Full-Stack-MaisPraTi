@@ -16,14 +16,14 @@ function readRegister(employee) {
     console.log("Salário líquido: " + (employee.salary*.88))
 }
 
-for (let i = 0; i < 80; ++i) {
+for(let i = 0; i < 80; ++i) {
     let name = prompt("Digite o nome do funcionário: ")
     registration = i+1
     let salary = parseInt(prompt("Digite o salário do funcionário: "))    
     employees[i] = createRegister(name, registration, salary)
 }
 
-for (i = 0; i < 80; ++i) {
+for(i = 0; i < 80; ++i) {
     readRegister(employees[i])
 }
 

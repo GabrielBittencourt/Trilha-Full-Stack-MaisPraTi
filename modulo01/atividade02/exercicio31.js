@@ -6,14 +6,14 @@ let result = []
 let number
 let counter = 0
 
-for (let i = 0; i < 30; ++i) {
+for(let i = 0; i < 30; ++i) {
     result[i] = []
     for (let j = 0; j < 30; ++j) {
       result[i][j] = null
     }
   }
 
-for (let i = 0; i < 30; ++i){
+for(let i = 0; i < 30; ++i){
     matrice[i] = []
     for (let j = 0; j < 30; ++j) {
       matrice[i][j] = parseInt(prompt("Digite o elemento da posição [" + (i+1)+"]"+"["+(j+1) + "] : "))

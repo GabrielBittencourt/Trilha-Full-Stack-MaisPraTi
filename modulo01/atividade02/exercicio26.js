@@ -13,7 +13,7 @@ let matriceB = [
   
 
 var matriceProduct = []
-for (var i = 0; i < matriceA.length; ++i){
+for(var i = 0; i < matriceA.length; ++i){
     matriceProduct[i] = []
         for (var j = 0; j < matriceB[0].length; ++j) {
             var sum = 0

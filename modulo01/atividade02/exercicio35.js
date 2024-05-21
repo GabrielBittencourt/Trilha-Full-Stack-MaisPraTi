@@ -4,7 +4,7 @@ let number
 let pares = []
 let impares = []
 
-for (let i = 0; i < 30; ++i){
+for(let i = 0; i < 30; ++i){
       number = parseInt(prompt("Digite um elemento: "))
       if(number % 2 == 0){
         pares.push(number)

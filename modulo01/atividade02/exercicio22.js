@@ -5,7 +5,7 @@ function populationData() {
   let childrens = []
   let verification = true
 
-  while (verification) {
+  while(verification) {
     let salary = parseFloat(prompt("Digite o salário da pessoa: R$ "))
     let children = parseInt(prompt("Digite o número de filhos da pessoa: "))
 
@@ -13,7 +13,7 @@ function populationData() {
     childrens.push(children)
 
     let answer = prompt("Deseja continuar? (s/n): ")
-    if (answer.toLowerCase() !== 's') {
+    if(answer.toLowerCase() !== 's') {
       verification = false
     }
   }
@@ -21,11 +21,11 @@ function populationData() {
   let totalSalarys = 0
   let totalChildren = 0
 
-  for (let i = 0; i < salarys.length; ++i) {
+  for(let i = 0; i < salarys.length; ++i) {
     totalSalarys += salarys[i]
   }
 
-  for (let i = 0; i < childrens.length; ++i) {
+  for(let i = 0; i < childrens.length; ++i) {
     totalChildren += childrens[i]
   }
 
@@ -33,15 +33,15 @@ function populationData() {
   let mediaChildren = totalChildren / childrens.length
 
   let biggerSalary = salarys[0]
-  for (let i = 1; i < salarys.length; ++i) {
-    if (salarys[i] > biggerSalary) {
+  for(let i = 1; i < salarys.length; ++i) {
+    if(salarys[i] > biggerSalary) {
       biggerSalary = salarys[i]
     }
   }
 
   let salarysUntil350 = 0
-  for (let i = 0; i < salarys.length; ++i) {
-    if (salarys[i] <= 350) {
+  for(let i = 0; i < salarys.length; ++i) {
+    if(salarys[i] <= 350) {
       salarysUntil350++
     }
   }

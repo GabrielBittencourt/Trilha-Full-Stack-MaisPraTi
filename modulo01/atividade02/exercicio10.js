@@ -27,4 +27,4 @@ do {
 
     controle = parseInt(prompt('Deseja continuar? (0)Não | (1)Sim: '))  
 
-} while (controle == 1)
+}while(controle == 1)
